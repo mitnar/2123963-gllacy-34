@@ -404,7 +404,6 @@
     </section>
     <section class="properties">
       <h2 class="visually-hidden">Секция преимуществ.</h2>
-      <h2 class="visually-hidden"></h2>
       <div class="properties-container">
         <h2 class="properties-header">
               Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес
@@ -472,7 +471,7 @@
           <div class="delivery-form-fields-container">
             <fieldset class="form-fieldset">
               <div class="form-legend-container">
-                <legend class="form-legend">Дата</legend>
+                <label class="form-legend" for="delivery-date-input">Дата</label>
                 <button type="button" class="extra-info-icon">
                   <span class="visually-hidden">Показать пояснение.</span>
                   <span class="extra-info-block">
@@ -480,7 +479,7 @@
                   </span>
                 </button>
               </div>
-              <input type="text" class="input-control delivery-date" name="date" placeholder="01.04.2020" required>
+              <input type="text" class="input-control delivery-date" id="delivery-date-input" name="date" placeholder="01.04.2020" required>
             </fieldset>
             <fieldset class="form-fieldset">
               <legend class="form-legend">Телефон</legend>
@@ -489,7 +488,7 @@
           </div>
           <fieldset class="form-fieldset">
             <div class="form-legend-container">
-                <legend class="form-legend">Адрес</legend>
+                <label class="form-legend" for="delivery-address-input">Адрес</label>
                 <button type="button" class="extra-info-icon">
                   <span class="visually-hidden">Показать пояснение.</span>
                   <span class="extra-info-block">
@@ -497,7 +496,7 @@
                   </span>
                 </button>
               </div>
-            <input type="tel" class="input-control delivery-address" name="address" placeholder="ул. Большая Конюшенная, 19/8" required>
+            <input type="tel" class="input-control delivery-address" id="delivery-address-input" name="address" placeholder="ул. Большая Конюшенная, 19/8" required>
           </fieldset>
           <div class="delivery-form-btn-container">
             <button class="second-btn btn delivery-btn" type="submit">
@@ -508,6 +507,7 @@
       </div>
     </section>
     <section class="feedback">
+      <h2>Секция обратной связи.</h2>
       <div class="feedback-data">
         <p class="feedback-data-text">Адрес главного офиса
           <br> и офлайн-магазина:</p>
